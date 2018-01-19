@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compiler", "compiler\compiler.vcxproj", "{6164A943-D4BB-4196-B3B1-8321EAD1CC20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3} = {7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "addon\addon.vcxproj", "{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6164A943-D4BB-4196-B3B1-8321EAD1CC20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6164A943-D4BB-4196-B3B1-8321EAD1CC20}.Debug|Win32.Build.0 = Debug|Win32
+		{6164A943-D4BB-4196-B3B1-8321EAD1CC20}.Release|Win32.ActiveCfg = Release|Win32
+		{6164A943-D4BB-4196-B3B1-8321EAD1CC20}.Release|Win32.Build.0 = Release|Win32
+		{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}.Debug|Win32.Build.0 = Debug|Win32
+		{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}.Release|Win32.ActiveCfg = Release|Win32
+		{7E78D6E1-C69E-43CD-A9CA-A0FF949595B3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
